@@ -41,7 +41,7 @@ xchat-app-desktop is a free third-party desktop client built to fill that gap ri
  
 ### Windows
  
-Download `xchat-app-desktop_x64.exe` from the [latest release](../../releases/latest) and double-click. The installer is digitally signed, so Windows SmartScreen passes it through without warnings. Everything is bundled — no Python, no Docker, no terminal commands.
+Download `xchat-app-desktop_x64.7z` from the [latest release](../../releases/latest) and double-click. The installer is digitally signed, so Windows SmartScreen passes it through without warnings. Everything is bundled — no Python, no Docker, no terminal commands.
  
 ### Mac
  
