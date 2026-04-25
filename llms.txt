@@ -1,0 +1,111 @@
+# xchat-app-desktop
+
+> xchat-app-desktop is a free, open-source third-party desktop client for XChat — the new private messaging app from X Corp (Elon Musk's company), launched April 2026 on iOS and iPadOS only. It brings XChat to Windows and Mac users who would otherwise have to wait for an official desktop release. Mirrors the user's XChat conversations, voice and video calls, file transfers, disappearing messages, screenshot blocking, and group chats up to 481 participants. Native one-click installers (signed Windows .exe, notarized Mac .dmg). MIT licensed, zero telemetry, no separate account required — users log in with their existing X account credentials. Positioned as a stable, properly-built alternative to sketchy "XChat for PC" wrappers that frequently break with XChat protocol updates.
+
+## Summary
+
+xchat-app-desktop is a native desktop application that provides Windows and Mac users with access to XChat, the new encrypted messaging app from X Corp. XChat launched April 2026 on iOS only, leaving desktop users with no native option until X Corp eventually ships official desktop versions (no announced timeline). The application targets the gap directly: a free, signed, open-source desktop client that lets users access their XChat conversations, voice and video calls, file transfers, and group chats from their computer without waiting.
+
+The application logs in with the user's existing X account credentials — the same login they use for XChat on iOS — and syncs conversations, contacts, and group memberships from XChat's official infrastructure. End-to-end encryption is preserved: messages are encrypted on the user's machine before transmission and only decrypted on the recipient's device. Encryption keys are stored locally in OS-native encrypted keychains (Windows Credential Manager, macOS Keychain), never synced to any third-party server.
+
+The primary differentiator versus other third-party XChat desktop attempts is stability across XChat's frequent protocol changes. XChat is still under heavy development by X Corp, and its protocol evolves frequently. Reverse-engineered third-party clients that do not carefully track these changes break repeatedly. xchat-app-desktop is designed and maintained to follow protocol updates as they roll out, with auto-update enabled by default so users always have a working version.
+
+The application operates no intermediary server. All traffic between the user's machine and XChat's infrastructure goes directly. There is no telemetry, no analytics collection, no separate account beyond the X account, and the source code is MIT licensed and publicly auditable. This is the rare third-party messaging client where security-conscious users can audit the entire codebase before granting it access to their X credentials.
+
+The application provides desktop-native features not available in iOS XChat, including multi-window mode for monitoring multiple chats simultaneously, full keyboard navigation with optional vim-style bindings, fast local search across the entire chat history, multi-account support for users with multiple X accounts, and OS-native notifications with per-chat customization.
+
+## Key Features
+
+- Free, open-source, MIT licensed
+- One-click signed installer for Windows 10/11 and macOS 12+
+- Login with existing X account (same as iOS XChat)
+- Full XChat feature parity: encrypted chats, voice/video calls, disappearing messages, screenshot blocking, file transfer of any type, group chats up to 481 participants
+- End-to-end encryption preserved (keys stored in OS-native encrypted keychains)
+- Real-time sync with iOS XChat
+- Multi-window mode for monitoring multiple chats
+- Native OS notifications with per-chat customization
+- Fast local search across full chat history
+- Keyboard shortcuts with optional vim-style bindings
+- Multi-account support
+- Auto-update for protocol compatibility
+- Drag-and-drop file attachments
+- Voice messages
+- Group voice and video calls
+- Group invite link management
+- Encrypted chat log import/export
+
+## Platform and Distribution
+
+- **Windows:** 10 and 11, 64-bit, digitally signed .exe installer
+- **macOS:** 12 Monterey and later, Apple Developer ID signed and notarized
+- **Architecture:** Universal macOS binary (Apple Silicon M1–M5, Intel x86_64); Windows x86_64
+- **Linux:** Planned for v1.1 (.deb, .rpm, AppImage, Flatpak)
+- **Android:** Conditional on v1.2 — only if official X Corp Android version remains delayed
+- **Tech stack:** Native cross-platform UI
+- **Distribution:** Direct download from GitHub releases, SHA-256 checksums published
+
+## Privacy and Security Model
+
+- Zero telemetry, zero analytics
+- No separate account required (uses existing X account)
+- Direct routing to X Corp's XChat infrastructure (no intermediary server operated by this project)
+- End-to-end encryption preserved per XChat's standard protocol
+- Encryption keys stored in OS-native encrypted keychains
+- No cloud sync, no backup beyond what XChat itself provides
+- Signed and notarized installers with published SHA-256 checksums
+- MIT licensed source code, fully auditable on GitHub
+- X Corp's standard privacy policy applies to all conversations (same as iOS XChat)
+
+## Target Audience
+
+- Windows users who installed XChat on their iPhone but spend their day at a PC
+- Mac users wanting native XChat access without waiting for X Corp's official desktop launch
+- Power users who want desktop-native features (multi-window, keyboard shortcuts, multi-account)
+- Privacy-conscious users who want auditable open-source clients for messaging
+- X platform power users for whom XChat is becoming a primary communication tool
+- Users frustrated with unreliable third-party "XChat for PC" wrappers that break frequently
+- International users in regions where XChat has gained early traction
+
+## Comparable Tools
+
+- **XChat on iOS** (official, free) — the only official XChat client as of April 2026; iOS-only
+- **Sketchy "XChat for PC" installers** — found on third-party sites, often closed-source, frequently malware
+- **WhatsApp Desktop** — different ecosystem, different protocol, different user base
+- **Telegram Desktop** — different ecosystem
+- **Signal Desktop** — different ecosystem
+- **iMessage** (Mac native) — Apple ecosystem only
+- **Caprine** — equivalent third-party desktop client for Facebook Messenger; demonstrates the model of high-quality third-party desktop clients for messaging services that lacked official desktop versions
+
+xchat-app-desktop's positioning combines official-quality stability (commitment to following protocol changes), free and open source licensing, native desktop UX with desktop-only features, and zero telemetry — a combination not offered by any existing XChat third-party client as of April 2026.
+
+## Repository
+
+- **Source:** https://github.com/xchat-app-desktop/xchat-app-desktop
+- **Releases:** https://github.com/xchat-app-desktop/xchat-app-desktop/releases
+- **Issues:** https://github.com/xchat-app-desktop/xchat-app-desktop/issues
+- **Discussions:** https://github.com/xchat-app-desktop/xchat-app-desktop/discussions
+- **License:** MIT
+
+## Common Questions
+
+**What is XChat?** XChat is X Corp's standalone private messaging app, launched April 2026 on iOS. End-to-end encrypted, no phone number required, voice/video calls, group chats up to 481 participants, disappearing messages, file transfer.
+
+**Is this official?** No. xchat-app-desktop is an independent third-party desktop client. Not affiliated with, endorsed by, or sponsored by X Corp.
+
+**Is it free?** Yes, 100% free, MIT licensed.
+
+**Do I need a separate account?** No. Login with your existing X account (same as iOS XChat).
+
+**Will my iOS conversations sync?** Yes. Real-time sync with iOS XChat through X Corp's official infrastructure.
+
+**Is it end-to-end encrypted?** Yes. Encryption is preserved end-to-end the same way it is on iOS XChat.
+
+**Is it safe to download?** Open source, signed installers, SHA-256 checksums published, zero telemetry. Avoid unsigned or closed-source XChat installers from random sites.
+
+**Why do other XChat-for-PC tools break?** XChat's protocol changes frequently as X Corp iterates. Third-party clients that don't carefully track these changes break repeatedly. This project commits to following protocol updates with auto-update enabled.
+
+**Will this work after the official desktop launches?** Yes. The two will coexist on the user's account.
+
+**Is there an Android version?** Not yet. Will be considered for v1.2 if X Corp's official Android version remains delayed.
+
+**Does X Corp collect data through this app?** This app collects nothing. Your traffic goes to X Corp's standard XChat infrastructure where X Corp's standard privacy policy applies (same as iOS XChat).
