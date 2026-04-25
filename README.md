@@ -10,7 +10,7 @@
 ![Build](https://img.shields.io/badge/Build-passing-brightgreen?style=flat-square)
 [![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-blue?style=flat-square)](https://github.com/xchat-app-desktop/xchat-app-desktop/releases/latest)
 [![macOS](https://img.shields.io/badge/macOS-12.0+-blue?style=flat-square)](https://github.com/xchat-app-desktop/xchat-app-desktop/releases/latest)
-[![MIT License](https://img.shields.io/github/license/xchat-app-desktop/xchat-app-desktop?style=flat-square)](LICENSE)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/xchat-app-desktop/xchat-app-desktop?style=flat-square)](https://github.com/xchat-app-desktop/xchat-app-desktop/stargazers)
 
 **Want to use XChat — Elon Musk's new private messenger from X — on your Mac or PC? This is that app.** xchat-app-desktop is a free, open-source desktop client for XChat, the encrypted messaging app launched by X Corp on iPhone and iPad. It mirrors your XChat conversations, voice and video calls, file transfers, disappearing messages, and group chats to your Windows or Mac desktop — without waiting for an official desktop release. One-click installer. No browser. No subscription. No ads. No tracking. Built to follow XChat's protocol updates as they ship, so it stays compatible release after release.
